@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="https://unpkg.com/core-js/client/shim.min.js"></script>
+
+<script src="https://unpkg.com/zone.js?main=browser"></script>
+<script src="https://unpkg.com/reflect-metadata"></script>
+
+<script src="https://unpkg.com/rxjs/bundles/Rx.min.js"></script>
+<script src="https://unpkg.com/@angular/core/bundles/core.umd.min.js"></script>
+<script src="https://unpkg.com/@angular/common/bundles/common.umd.min.js"></script>
+<script src="https://unpkg.com/@angular/compiler/bundles/compiler.umd.min.js"></script>
+<script src="https://unpkg.com/@angular/platform-browser/bundles/platform-browser.umd.min.js"></script>
+<script src="https://unpkg.com/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.min.js"></script>
+<script src="https://unpkg.com/@angular/router/bundles/router.umd.min.js"></script>
+<script src="https://unpkg.com/@angular/http/bundles/http.umd.min.js"></script>
+<script src="https://unpkg.com/@angular/forms/bundles/forms.umd.min.js"></script>
+
+<script src="bundle.es2015.min.js"></script>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+<title>Family1st</title>
+<link rel="shortcut icon" href="https://family1st.jp/favicon.ico">
+
+<style>
+    .demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type {
+        padding-right: 0;
+    }
+
+    div.a {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: left;
+        align-self: center;
+        /*align-items: center;*/
+        align-items: flex-statt;
+        margin-top: 10px;
+    }
+
+    div.b {
+        display: table;
+    }
+
+    div.c {
+        display: table-cell;
+        vertical-align: top;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    div.e {
+        display: table-cell;
+        vertical-align: middle;
+        width: 180px;
+        height: 180px;
+        text-align: center;
+    }
+
+    div.d {
+        text-align: right;
+    }
+
+    img {
+        max-width: 180px;
+        max-height: 180px;
+    }
+</style>
+<div class="demo-layout-waterfall mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <main class="mdl-layout__content">
+        <div class="page-content">
+        <my-app>Loading...</my-app>
+
+        </div>
+    </main>
+</div>
+
+</html>

@@ -1,0 +1,14 @@
+[
+  {
+    "name":"Bill Gates",
+    "image":"http://pbs.twimg.com/profile_images/558109954561679360/j1f9DiJi.jpeg"
+  },
+  {
+    "name":"Barack Obama",
+    "image":"https://lh6.googleusercontent.com/-2lJYGtfXKwQ/AAAAAAAAAAI/AAAAAAAB15E/JDAoqjtUysE/s0-c-k-no-ns/photo.jpg"
+  },
+  {
+    "name":"Pope Francis",
+    "image":"http://a2.files.biography.com/image/upload/c_fill,cs_srgb,dpr_1.0,g_face,h_300,q_80,w_300/MTE1ODA0OTcyMDMzNTQxNjQ1.jpg"
+  }
+]

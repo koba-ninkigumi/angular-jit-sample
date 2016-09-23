@@ -1,0 +1,33 @@
+div.a {
+  display: flex;
+  flex-flow: wrap;
+  justify-content:left;
+  align-self: center;
+  /*align-items: center;*/
+  align-items: flex-statt;
+  margin-top:10px;
+}
+div.b {
+  display: table;
+}
+div.c {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+div.e {
+  display: table-cell;
+  vertical-align: middle;
+  width: 180px;
+  height: 180px;
+  text-align: center;
+}
+div.d {
+  text-align: right;
+}
+img {
+  max-width: 180px;
+  max-height: 180px;
+}
