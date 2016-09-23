@@ -1,5 +1,5 @@
 .DS_Store
 node_modules
-*.js
+src/app/*.js
 !rollup.config.js
 *.map
